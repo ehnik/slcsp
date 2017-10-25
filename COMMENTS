@@ -1,0 +1,6 @@
+Written in Ruby.
+
+For a larger data set, I would have looked into using an ActiveRecord/MySQL database
+for easier querying for the zip/plan data. But for these particular files,
+arrays worked relatively quickly and avoided the extra set-up time/memory
+allocation needed for a database.
